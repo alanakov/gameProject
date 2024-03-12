@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*imagem do banner*/
+.background {
+    background-image: url("../res/background/origbig-copia.png");
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    font-family: "Source Code Pro";
+}
+
+
+/*barra de navegação topo*/
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+}
+
+nav div a img {
+    display: flex;
+    height: 100px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 10px 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+    padding-right: 130px;
+}
+
+/*botao de login*/
+.login-button button {
+    margin-top: 25px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+.login-button button:hover{
+    background-color: #ffba00;
+    transition: 1s;
+}
+
+.login-button button a {
+    font-family: "Source Code Pro";
+    text-decoration: none;
+    color: #708791;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+/*seta*/
+#arrow img {
+    width: 150px;
+    padding-left: 45%;
+    padding-top: 300px;
+    animation: jumping 2s linear infinite;
+    cursor: pointer;
+}
+
+@keyframes jumping {
+    from {transform: translateY(-15px);}
+    50% {transform: translateY(0);}
+    to {transform: translateY(-15px);}
+}
+
+/*nome do jogo*/
+.name-game h1 {
+    font-family: "Pixelify Sans";
+    font-size: 200px;
+    text-align: center;
+    color: #ffba00;
+    padding-top: 8%;
+}
+
+
+/*o que é?*/
+.background-WHAT{
+    background-color: #fffec7;
+}
+.WHAT {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.text-WHAT {
+    margin: 20px;
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 3%;
+}
